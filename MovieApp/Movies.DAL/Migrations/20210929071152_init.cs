@@ -33,18 +33,11 @@ namespace Movies.DAL.Migrations
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Year = table.Column<int>(type: "int", nullable: false),
                     Genre = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
-                    UserId1 = table.Column<int>(type: "int", nullable: true)
+                    UserId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Movies", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Movies_Users_UserId1",
-                        column: x => x.UserId1,
-                        principalTable: "Users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "MyFKConstraint",
                         column: x => x.UserId,
@@ -66,27 +59,22 @@ namespace Movies.DAL.Migrations
 
             migrationBuilder.InsertData(
                 table: "Movies",
-                columns: new[] { "Id", "Description", "Genre", "Title", "UserId", "UserId1", "Year" },
+                columns: new[] { "Id", "Description", "Genre", "Title", "UserId", "Year" },
                 values: new object[,]
                 {
-                    { 1, "dasda", 0, "Rambo", 1, null, 1996 },
-                    { 2, "Group of heroes save the world from evil", 5, " The Lord Of The Rings", 1, null, 2000 },
-                    { 3, "Superheroes against the evil", 1, " Avengers", 1, null, 2002 },
-                    { 4, "Superheroes against the evil", 1, " Avengers2", 1, null, 2002 },
-                    { 5, "Superheroes against the evil", 3, "Vratice se rode", 1, null, 2000 },
-                    { 6, "Superheroes against the evil", 4, "Interstellar", 1, null, 2010 },
-                    { 7, "Superheroes against the evil", 2, "Money Heist", 1, null, 2010 }
+                    { 1, "dasda", 0, "Rambo", 1, 1996 },
+                    { 2, "Group of heroes save the world from evil", 5, " The Lord Of The Rings", 1, 2000 },
+                    { 3, "Superheroes against the evil", 1, " Avengers", 1, 2002 },
+                    { 4, "Superheroes against the evil", 1, " Avengers2", 1, 2002 },
+                    { 5, "Superheroes against the evil", 3, "Vratice se rode", 1, 2000 },
+                    { 6, "Superheroes against the evil", 4, "Interstellar", 1, 2010 },
+                    { 7, "Superheroes against the evil", 2, "Money Heist", 1, 2010 }
                 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Movies_UserId",
                 table: "Movies",
                 column: "UserId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Movies_UserId1",
-                table: "Movies",
-                column: "UserId1");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

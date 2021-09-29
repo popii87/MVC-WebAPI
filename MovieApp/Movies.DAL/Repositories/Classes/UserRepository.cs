@@ -24,7 +24,7 @@ namespace Movies.DAL.Repositories.Classes
 
         public void Delete(int id)
         {
-            var user = _moviesDb.Users.FirstOrDefault(u => u.Id == id);
+            var user = _moviesDb.Users.ToList().FirstOrDefault(u => u.Id == id);
             _moviesDb.Users.Remove(user);
             _moviesDb.SaveChanges();
         }

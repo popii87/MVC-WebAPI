@@ -31,7 +31,7 @@ namespace Movies.DAL.Context
                     FirstName = "Robert",
                     LastName = "Dimov",
                     FavoriteGenre = Genre.Adventure,
-                    //MoviesList = new List<Movie> { Movies[0], Movies[1] }
+                    
                 },
               new User()
               {
@@ -41,7 +41,7 @@ namespace Movies.DAL.Context
                   FirstName = "Viktor",
                   LastName = "Jakovlev",
                   FavoriteGenre = Genre.Action,
-                  //MoviesList = new List<Movie> { Movies[1], Movies[2], Movies[4] }
+                  
 
               },
                new User()
@@ -52,8 +52,7 @@ namespace Movies.DAL.Context
                    FirstName = "Bob",
                    LastName = "Bobski",
                    FavoriteGenre = Genre.Comedy,
-                   //MoviesList = new List<Movie> { Movies[1], Movies[2], Movies[3], Movies[5] }
-
+                   
                },
                new User()
                {
@@ -63,7 +62,7 @@ namespace Movies.DAL.Context
                    FirstName = "Ben",
                    LastName = "Solski",
                    FavoriteGenre = Genre.Drama,
-                   //MoviesList = new List<Movie> { Movies[1], Movies[2], Movies[3], Movies[5] }
+                   
 
                }
                 );

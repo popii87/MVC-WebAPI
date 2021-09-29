@@ -15,7 +15,8 @@ namespace Movies.DAL.Models.Dto
                 Title = entity.Title,
                 Description = entity.Description,
                 Year = entity.Year,
-                Genre = entity.Genre
+                Genre = entity.Genre,
+                UserId = entity.UserId
             };
         }
 
@@ -27,7 +28,8 @@ namespace Movies.DAL.Models.Dto
                 Title = entity.Title,
                 Description = entity.Description,
                 Year = entity.Year,
-                Genre = entity.Genre
+                Genre = entity.Genre,
+                UserId = entity.UserId
             };
 
         }
@@ -40,8 +42,8 @@ namespace Movies.DAL.Models.Dto
                 Password = user.Password,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
-                FavoriteGenre = user.FavoriteGenre,
-                MoviesList = user.MoviesList
+                FavoriteGenre = user.FavoriteGenre
+                
             };
         }
         public static UserDto UserToUserDto(User user)
@@ -53,8 +55,8 @@ namespace Movies.DAL.Models.Dto
                 Password = user.Password,
                 FirstName = user.FirstName,
                 LastName = user.LastName,
-                FavoriteGenre = user.FavoriteGenre,
-                MoviesList = user.MoviesList
+                FavoriteGenre = user.FavoriteGenre
+              
             };
 
         }

@@ -7573,11 +7573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\R\\Desktop\\MovieApp\\MovieApp\\MovieApp.csproj",
+      "projectUniqueName": "C:\\Users\\R\\Desktop\\WebAPI_git_repo\\WebAPI\\MovieApp\\MovieApp\\MovieApp.csproj",
       "projectName": "MovieApp",
-      "projectPath": "C:\\Users\\R\\Desktop\\MovieApp\\MovieApp\\MovieApp.csproj",
+      "projectPath": "C:\\Users\\R\\Desktop\\WebAPI_git_repo\\WebAPI\\MovieApp\\MovieApp\\MovieApp.csproj",
       "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\R\\Desktop\\MovieApp\\MovieApp\\obj\\",
+      "outputPath": "C:\\Users\\R\\Desktop\\WebAPI_git_repo\\WebAPI\\MovieApp\\MovieApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7594,8 +7594,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\R\\Desktop\\MovieApp\\Movies.DAL\\Movies.DAL.csproj": {
-              "projectPath": "C:\\Users\\R\\Desktop\\MovieApp\\Movies.DAL\\Movies.DAL.csproj"
+            "C:\\Users\\R\\Desktop\\WebAPI_git_repo\\WebAPI\\MovieApp\\Movies.DAL\\Movies.DAL.csproj": {
+              "projectPath": "C:\\Users\\R\\Desktop\\WebAPI_git_repo\\WebAPI\\MovieApp\\Movies.DAL\\Movies.DAL.csproj"
             }
           }
         }

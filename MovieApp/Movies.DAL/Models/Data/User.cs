@@ -15,7 +15,7 @@ namespace Movies.DAL.Models.Data
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Genre FavoriteGenre { get; set; }
-        public List<Movie> MoviesList { get; set; }
+        
         public virtual ICollection<Movie> Movies { get; set; }
     }
 }

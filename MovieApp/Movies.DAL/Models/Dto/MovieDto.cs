@@ -12,5 +12,6 @@ namespace Movies.DAL.Models.Dto
         public string Description { get; set; }
         public int Year { get; set; }
         public Genre Genre { get; set; }
+        public int UserId { get; set; }
     }
 }

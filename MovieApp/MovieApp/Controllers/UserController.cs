@@ -33,7 +33,7 @@ namespace MovieApp.Controllers
             }
         }
         [HttpDelete]
-        [Route("deleteUser")]
+        [Route("deleteUser/{id}")]
         public ActionResult Delete([FromRoute] int id)
         {
             try

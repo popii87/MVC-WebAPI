@@ -7552,11 +7552,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\R\\Desktop\\MovieApp\\Movies.DAL\\Movies.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\R\\Desktop\\WebAPI_git_repo\\WebAPI\\MovieApp\\Movies.DAL\\Movies.DAL.csproj",
       "projectName": "Movies.DAL",
-      "projectPath": "C:\\Users\\R\\Desktop\\MovieApp\\Movies.DAL\\Movies.DAL.csproj",
+      "projectPath": "C:\\Users\\R\\Desktop\\WebAPI_git_repo\\WebAPI\\MovieApp\\Movies.DAL\\Movies.DAL.csproj",
       "packagesPath": "C:\\Users\\R\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\R\\Desktop\\MovieApp\\Movies.DAL\\obj\\",
+      "outputPath": "C:\\Users\\R\\Desktop\\WebAPI_git_repo\\WebAPI\\MovieApp\\Movies.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\R\\AppData\\Roaming\\NuGet\\NuGet.Config",

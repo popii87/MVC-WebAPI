@@ -14,6 +14,6 @@ namespace Movies.DAL.Models.Dto
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Genre FavoriteGenre { get; set; }
-        public List<Movie> MoviesList { get; set; }
+        
     }
 }
