@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = Football_Manager
-build_property.ProjectDir = C:\Users\R\Desktop\Backup\Backup\WebAPI_git_repo\WebAPI\Football Manager\Football Manager\
+build_property.RootNamespace = FootbalApp
+build_property.ProjectDir = C:\Users\R\Desktop\FootbalApp\FootbalApp\
