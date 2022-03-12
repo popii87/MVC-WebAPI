@@ -1,0 +1,15 @@
+﻿@model List<FootbalApp.Models.Data.Team>
+
+<h2>Teams</h2>
+<br/>
+
+@foreach (var item in Model)
+{
+    <ul>
+        <li>@Html.ActionLink(item.Name, "TeamDetails", new { name = item.Name})</li>
+    </ul>
+}
+
+<a asp-controller="Team" asp-action="Create" class="btn btn-primary">Create Team</a>
+
+

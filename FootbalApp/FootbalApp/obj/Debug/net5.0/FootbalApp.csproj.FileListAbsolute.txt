@@ -1,0 +1,90 @@
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\appsettings.json
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\FootbalApp.exe
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\FootbalApp.deps.json
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\FootbalApp.runtimeconfig.json
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\FootbalApp.runtimeconfig.dev.json
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\FootbalApp.dll
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\ref\FootbalApp.dll
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\FootbalApp.pdb
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\FootbalApp.Views.dll
+C:\Users\R\Desktop\FootbalApp\FootbalApp\bin\Debug\net5.0\FootbalApp.Views.pdb
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.AssemblyInfoInputs.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.AssemblyInfo.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.csproj.CoreCompileInputs.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorAssemblyInfo.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorAssemblyInfo.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\staticwebassets\FootbalApp.StaticWebAssets.Manifest.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\staticwebassets\FootbalApp.StaticWebAssets.xml
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\scopedcss\bundle\FootbalApp.styles.css
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.TagHelpers.input.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.TagHelpers.output.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorCoreGenerate.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorTargetAssemblyInfo.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorTargetAssemblyInfo.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.Views.pdb
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.dll
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\ref\FootbalApp.dll
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.pdb
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.genruntimeconfig.cache
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.csproj.CopyComplete
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\Index.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\TeamDetails.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\Create.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\Delete.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\Update.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.csproj.AssemblyReference.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\appsettings.json
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\FootbalApp.exe
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\FootbalApp.deps.json
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\FootbalApp.runtimeconfig.json
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\FootbalApp.runtimeconfig.dev.json
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\FootbalApp.dll
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\ref\FootbalApp.dll
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\FootbalApp.pdb
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\FootbalApp.Views.dll
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\bin\Debug\net5.0\FootbalApp.Views.pdb
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.AssemblyInfoInputs.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.AssemblyInfo.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.csproj.CoreCompileInputs.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorAssemblyInfo.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorAssemblyInfo.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\staticwebassets\FootbalApp.StaticWebAssets.Manifest.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\staticwebassets\FootbalApp.StaticWebAssets.xml
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\scopedcss\bundle\FootbalApp.styles.css
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.TagHelpers.input.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.TagHelpers.output.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorCoreGenerate.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\Create.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\Delete.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\Index.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\TeamDetails.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\Team\Update.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorTargetAssemblyInfo.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.RazorTargetAssemblyInfo.cs
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.Views.pdb
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.dll
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\ref\FootbalApp.dll
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.pdb
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.genruntimeconfig.cache
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.csproj.CopyComplete
+C:\Users\R\Desktop\FootbalApp - Copy (2)\FootbalApp\obj\Debug\net5.0\FootbalApp.csproj.AssemblyReference.cache
