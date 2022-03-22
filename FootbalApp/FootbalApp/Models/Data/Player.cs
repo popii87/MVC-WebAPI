@@ -11,7 +11,6 @@ namespace FootbalApp.Models.Data
         public string LastName { get; set; }
         public DateTime BirthDate { get; set; }
         public int Value { get; set; }
-
-
+        public virtual Team team { get; set; }
     }
 }

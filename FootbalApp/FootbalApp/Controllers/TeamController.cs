@@ -38,7 +38,7 @@ namespace FootbalApp.Controllers
         public IActionResult Create(Team team)
         {
             
-            team.TeamPlayers = new List<Player>() { new Player() { FirstName = "Zlatan", LastName = "Ibrahimovic", BirthDate = new DateTime(1987, 12, 5), Value = 250000 } };
+          //  team.TeamPlayers = new List<Player>();
             Db.Teams.Add(team);
             return RedirectToAction("Index");
         }

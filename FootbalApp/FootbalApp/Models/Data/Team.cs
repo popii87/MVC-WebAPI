@@ -7,6 +7,10 @@ namespace FootbalApp.Models.Data
 {
     public class Team
     {
+        public Team()
+        {
+            TeamPlayers = new HashSet<Player>();
+        }
         public string Name { get; set; }
         public string City { get; set; }
         public string Stadium { get; set; }
@@ -14,7 +18,7 @@ namespace FootbalApp.Models.Data
 
         public string History { get; set; }
 
-        public List<Player> TeamPlayers { get; set; }
+        public virtual ICollection<Player> TeamPlayers { get; set; }
 
 
     }
