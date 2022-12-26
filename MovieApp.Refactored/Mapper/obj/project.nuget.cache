@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fbQpTku7DPrwauj33OxUTIzxhUyROPh1VvLP0yn6jfU5nfmNm2U49ucTQdjq27GNCr2WmYEFxc6mhdD42UATgA==",
+  "dgSpecHash": "QVgo8rP2TY082o+FaLrYf+xax4wfldEVknGUS0KpP3s9w/NwH2AGOPIUqZan20Vo7MunuOxqHGvCENcdfWIGIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\R\\Desktop\\MovieApp.Refactored\\Mapper\\Mapper.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\MVC-WebAPI\\MovieApp.Refactored\\Mapper\\Mapper.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

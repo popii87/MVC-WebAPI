@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1BfPmH53FzuQRz2FnjV+AGdBxu+2AfFOSgVO2xVVVGDAKYwbvyn+bvUJ+1yb6oiGNvVli9Joeo+Un4pBDbIiaQ==",
+  "dgSpecHash": "E71Vhq+KAE/mEXqBODK/4USzeQpD0EtF9dTwaJyMnvQIptyH51+w0tfhiajjoZFrjLcwqmfBmIqhkGQJOg9OxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\R\\Desktop\\MovieApp.Refactored\\DomainModels\\DomainModels.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\Desktop\\MVC-WebAPI\\MovieApp.Refactored\\DomainModels\\DomainModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,426 @@
+
+12:46:06 [Information] () User profile is available. Using '"C:\Users\Asus\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+12:46:07 [Information] () Now listening on: "https://localhost:5001"
+
+12:46:07 [Information] () Now listening on: "http://localhost:5000"
+
+12:46:07 [Information] () Application started. Press Ctrl+C to shut down.
+
+12:46:07 [Information] () Hosting environment: "Development"
+
+12:46:07 [Information] () Content root path: "C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored"
+
+12:46:09 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+
+12:46:09 [Information] () Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+
+12:46:09 [Information] () Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+
+12:46:09 [Information] () Request finished in 14.4517ms 200 application/javascript; charset=utf-8
+
+12:46:09 [Information] () Request finished in 330.8334ms 200 text/html;charset=utf-8
+
+12:46:09 [Information] () Request finished in 164.4656ms 200 text/javascript; charset=UTF-8
+
+12:46:10 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+
+12:46:10 [Information] () Request finished in 185.9982ms 200 application/json;charset=utf-8
+
+12:46:47 [Information] () Request starting HTTP/2 POST https://localhost:5001/api/Movie/AddMovie application/json 85
+
+12:46:47 [Information] () CORS policy execution successful.
+
+12:46:48 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+12:46:48 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+12:46:48 [Error] () Unknown Error: "Name identifier claim does not exist!"
+
+12:46:48 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+12:46:48 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 710.9627ms
+
+12:46:48 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+12:46:48 [Information] () Request finished in 1449.1367ms 400 text/plain; charset=utf-8
+
+12:47:36 [Information] () Request starting HTTP/2 GET https://localhost:5001/api/Movie/getallmovies  
+
+12:47:36 [Information] () Authorization failed.
+
+12:47:36 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+12:47:36 [Information] () Request finished in 20.4765ms 401 
+
+12:48:36 [Information] () Request starting HTTP/2 POST https://localhost:5001/api/User/register application/json 127
+
+12:48:36 [Information] () CORS policy execution successful.
+
+12:48:36 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.UserController.Register (MovieApp.Refactored)"'
+
+12:48:36 [Information] () Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(RequestModels.RegisterRequestModel)" on controller "MovieApp.Refactored.Controllers.UserController" ("MovieApp.Refactored").
+
+12:48:37 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+12:48:39 [Information] () Executed DbCommand ("154"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FavoriteGenre], [FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+12:48:39 [Information] () Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+
+12:48:39 [Information] () Executed action "MovieApp.Refactored.Controllers.UserController.Register (MovieApp.Refactored)" in 2551.8566ms
+
+12:48:39 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.UserController.Register (MovieApp.Refactored)"'
+
+12:48:39 [Information] () Request finished in 2564.0895ms 200 application/json; charset=utf-8
+
+12:49:17 [Information] () Request starting HTTP/2 POST https://localhost:5001/api/User/authenticate application/json 42
+
+12:49:17 [Information] () CORS policy execution successful.
+
+12:49:17 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)"'
+
+12:49:17 [Information] () Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Authenticate(RequestModels.LoginRequestModel)" on controller "MovieApp.Refactored.Controllers.UserController" ("MovieApp.Refactored").
+
+12:49:17 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+12:49:17 [Information] () Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FavoriteGenre], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+
+12:49:18 [Information] () Executing ObjectResult, writing value of type '"RequestModels.UserModel"'.
+
+12:49:18 [Information] () Executed action "MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)" in 569.9177ms
+
+12:49:18 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)"'
+
+12:49:18 [Information] () Request finished in 581.5296ms 200 application/json; charset=utf-8
+
+12:49:59 [Information] () Request starting HTTP/2 GET https://localhost:5001/api/Movie/getallmovies  
+
+12:49:59 [Information] () Authorization failed.
+
+12:49:59 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+12:49:59 [Information] () Request finished in 4.3952ms 401 
+
+15:35:45 [Information] () User profile is available. Using '"C:\Users\Asus\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+15:35:45 [Information] () Now listening on: "https://localhost:5001"
+
+15:35:45 [Information] () Now listening on: "http://localhost:5000"
+
+15:35:45 [Information] () Application started. Press Ctrl+C to shut down.
+
+15:35:45 [Information] () Hosting environment: "Development"
+
+15:35:45 [Information] () Content root path: "C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored"
+
+15:35:46 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+
+15:35:47 [Information] () Request finished in 257.4234ms 200 text/html;charset=utf-8
+
+15:35:47 [Information] () Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+
+15:35:47 [Information] () Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+
+15:35:47 [Information] () Request finished in 30.8399ms 200 application/javascript; charset=utf-8
+
+15:35:47 [Information] () Request finished in 60.9003ms 200 text/javascript; charset=UTF-8
+
+15:35:47 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+
+15:35:47 [Information] () Request finished in 152.5831ms 200 application/json;charset=utf-8
+
+15:35:58 [Information] () Application is shutting down...
+
+15:41:30 [Information] () User profile is available. Using '"C:\Users\Asus\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+15:41:30 [Information] () Now listening on: "https://localhost:5001"
+
+15:41:30 [Information] () Now listening on: "http://localhost:5000"
+
+15:41:30 [Information] () Application started. Press Ctrl+C to shut down.
+
+15:41:30 [Information] () Hosting environment: "Development"
+
+15:41:30 [Information] () Content root path: "C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored"
+
+15:41:32 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+
+15:41:32 [Information] () Request finished in 233.7105ms 200 text/html;charset=utf-8
+
+15:41:32 [Information] () Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+
+15:41:32 [Information] () Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+
+15:41:32 [Information] () Request finished in 22.4182ms 200 application/javascript; charset=utf-8
+
+15:41:32 [Information] () Request finished in 40.1718ms 200 text/javascript; charset=UTF-8
+
+15:41:32 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+
+15:41:32 [Information] () Request finished in 122.7857ms 200 application/json;charset=utf-8
+
+15:42:00 [Information] () Request starting HTTP/2 POST https://localhost:5001/api/User/authenticate application/json 42
+
+15:42:00 [Information] () CORS policy execution successful.
+
+15:42:01 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)"'
+
+15:42:01 [Information] () Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Authenticate(RequestModels.LoginRequestModel)" on controller "MovieApp.Refactored.Controllers.UserController" ("MovieApp.Refactored").
+
+15:42:01 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+15:42:02 [Information] () Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FavoriteGenre], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+
+15:42:02 [Information] () Executing ObjectResult, writing value of type '"RequestModels.UserModel"'.
+
+15:42:02 [Information] () Executed action "MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)" in 1406.3678ms
+
+15:42:02 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)"'
+
+15:42:02 [Information] () Request finished in 1623.8714ms 200 application/json; charset=utf-8
+
+15:45:27 [Information] () User profile is available. Using '"C:\Users\Asus\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+15:45:27 [Information] () Now listening on: "https://localhost:5001"
+
+15:45:27 [Information] () Now listening on: "http://localhost:5000"
+
+15:45:27 [Information] () Application started. Press Ctrl+C to shut down.
+
+15:45:27 [Information] () Hosting environment: "Development"
+
+15:45:27 [Information] () Content root path: "C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored"
+
+15:45:28 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+
+15:45:28 [Information] () Request finished in 185.5573ms 200 text/html;charset=utf-8
+
+15:45:28 [Information] () Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+
+15:45:28 [Information] () Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+
+15:45:28 [Information] () Request finished in 6.7568ms 200 application/javascript; charset=utf-8
+
+15:45:28 [Information] () Request finished in 23.9282ms 200 text/javascript; charset=UTF-8
+
+15:45:29 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+
+15:45:29 [Information] () Request finished in 200.6302ms 200 application/json;charset=utf-8
+
+15:48:10 [Information] () User profile is available. Using '"C:\Users\Asus\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+15:48:10 [Information] () Now listening on: "https://localhost:5001"
+
+15:48:10 [Information] () Now listening on: "http://localhost:5000"
+
+15:48:10 [Information] () Application started. Press Ctrl+C to shut down.
+
+15:48:10 [Information] () Hosting environment: "Development"
+
+15:48:10 [Information] () Content root path: "C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored"
+
+15:48:11 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+
+15:48:11 [Information] () Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+
+15:48:11 [Information] () Request finished in 197.7921ms 200 text/html;charset=utf-8
+
+15:48:11 [Information] () Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+
+15:48:11 [Information] () Request finished in 29.4785ms 200 application/javascript; charset=utf-8
+
+15:48:11 [Information] () Request finished in 72.7692ms 200 text/javascript; charset=UTF-8
+
+15:48:11 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+
+15:48:12 [Information] () Request finished in 128.363ms 200 application/json;charset=utf-8
+
+15:53:46 [Information] () User profile is available. Using '"C:\Users\Asus\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+15:53:47 [Information] () Now listening on: "https://localhost:5001"
+
+15:53:47 [Information] () Now listening on: "http://localhost:5000"
+
+15:53:47 [Information] () Application started. Press Ctrl+C to shut down.
+
+15:53:47 [Information] () Hosting environment: "Development"
+
+15:53:47 [Information] () Content root path: "C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored"
+
+15:53:48 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+
+15:53:48 [Information] () Request finished in 243.4522ms 200 text/html;charset=utf-8
+
+15:53:48 [Information] () Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+
+15:53:49 [Information] () Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+
+15:53:49 [Information] () Request finished in 70.1209ms 200 application/javascript; charset=utf-8
+
+15:53:49 [Information] () Request finished in 119.0551ms 200 text/javascript; charset=UTF-8
+
+15:53:49 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+
+15:53:49 [Information] () Request finished in 220.9078ms 200 application/json;charset=utf-8
+
+15:54:06 [Information] () Request starting HTTP/2 POST https://localhost:5001/api/User/authenticate application/json 42
+
+15:54:06 [Information] () CORS policy execution successful.
+
+15:54:06 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)"'
+
+15:54:07 [Information] () Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Authenticate(RequestModels.LoginRequestModel)" on controller "MovieApp.Refactored.Controllers.UserController" ("MovieApp.Refactored").
+
+15:54:08 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+15:54:08 [Information] () Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FavoriteGenre], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+
+15:54:09 [Information] () Executing ObjectResult, writing value of type '"RequestModels.UserModel"'.
+
+15:54:09 [Information] () Executed action "MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)" in 2238.6098ms
+
+15:54:09 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)"'
+
+15:54:09 [Information] () Request finished in 2478.932ms 200 application/json; charset=utf-8
+
+15:54:57 [Information] () Request starting HTTP/1.1 GET https://localhost:5001/api/movie/getallmovies  
+
+15:54:57 [Information] () Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+
+15:54:58 [Information] () "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+
+15:54:58 [Information] () Authorization failed.
+
+15:54:58 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+15:54:58 [Information] () Request finished in 382.6292ms 401 
+
+15:55:11 [Information] () Request starting HTTP/1.1 GET https://localhost:5001/api/movie/getallmovies  
+
+15:55:11 [Information] () "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token."
+
+15:55:11 [Information] () Authorization failed.
+
+15:55:11 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+15:55:11 [Information] () Request finished in 5.1407ms 401 
+
+15:55:20 [Information] () Request starting HTTP/1.1 GET https://localhost:5001/api/movie/getallmovies  
+
+15:55:20 [Information] () Successfully validated the token.
+
+15:55:20 [Information] () Authorization was successful.
+
+15:55:20 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)"'
+
+15:55:20 [Information] () Route matched with "{action = \"GetAllMovies\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllMovies()" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+15:55:20 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+15:55:20 [Information] () Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+15:55:20 [Information] () Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[RequestModels.MovieRequestModel, RequestModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+
+15:55:20 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)" in 149.5331ms
+
+15:55:20 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)"'
+
+15:55:20 [Information] () Request finished in 212.1366ms 200 application/json; charset=utf-8
+
+15:55:51 [Information] () Request starting HTTP/1.1 POST https://localhost:5001/api/movie/addmovie application/json 109
+
+15:55:51 [Information] () Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+
+15:55:51 [Information] () "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+
+15:55:51 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+15:55:51 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+15:55:51 [Error] () Unknown Error: "Name identifier claim does not exist!"
+
+15:55:51 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+15:55:51 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 241.1709ms
+
+15:55:51 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+15:55:51 [Information] () Request finished in 250.9588ms 400 text/plain; charset=utf-8
+
+15:56:05 [Information] () Request starting HTTP/1.1 POST https://localhost:5001/api/movie/addmovie application/json 109
+
+15:56:05 [Information] () Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+
+15:56:05 [Information] () "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+
+15:56:05 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+15:56:05 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+15:56:05 [Error] () Unknown Error: "Name identifier claim does not exist!"
+
+15:56:05 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+15:56:05 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 82.8324ms
+
+15:56:05 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+15:56:05 [Information] () Request finished in 95.4313ms 400 text/plain; charset=utf-8
+
+15:57:38 [Information] () Request starting HTTP/1.1 POST https://localhost:5001/api/movie/addmovie application/json 96
+
+15:57:38 [Information] () Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+
+15:57:38 [Information] () "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+
+15:57:38 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+15:57:38 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+15:57:38 [Error] () Unknown Error: "Name identifier claim does not exist!"
+
+15:57:38 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+15:57:38 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 98.4989ms
+
+15:57:38 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+15:57:38 [Information] () Request finished in 110.2552ms 400 text/plain; charset=utf-8

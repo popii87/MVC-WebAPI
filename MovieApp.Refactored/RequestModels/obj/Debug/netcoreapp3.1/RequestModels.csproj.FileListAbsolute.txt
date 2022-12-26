@@ -11,3 +11,16 @@ C:\Users\R\Desktop\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\Req
 C:\Users\R\Desktop\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.csproj.CopyComplete
 C:\Users\R\Desktop\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.dll
 C:\Users\R\Desktop\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.pdb
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\bin\Debug\netcoreapp3.1\RequestModels.deps.json
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\bin\Debug\netcoreapp3.1\RequestModels.dll
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\bin\Debug\netcoreapp3.1\RequestModels.pdb
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.AssemblyInfo.cs
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.csproj.CopyComplete
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.dll
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\RequestModels\obj\Debug\netcoreapp3.1\RequestModels.pdb

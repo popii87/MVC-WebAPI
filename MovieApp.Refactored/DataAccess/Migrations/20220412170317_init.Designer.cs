@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(MovieDbContext))]
-    [Migration("20211102112324_init")]
+    [Migration("20220412170317_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,7 +81,6 @@ namespace DataAccess.Migrations
                     b.HasOne("DomainModels.Data.User", "User")
                         .WithMany("Movies")
                         .HasForeignKey("UserId")
-                        .HasConstraintName("MyFKConstraint")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

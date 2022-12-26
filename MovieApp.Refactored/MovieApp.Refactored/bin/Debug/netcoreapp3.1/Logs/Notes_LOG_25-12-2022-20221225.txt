@@ -1,0 +1,306 @@
+
+14:42:58 [Information] () User profile is available. Using '"C:\Users\Asus\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+
+14:42:59 [Information] () Now listening on: "https://localhost:5001"
+
+14:42:59 [Information] () Now listening on: "http://localhost:5000"
+
+14:42:59 [Information] () Application started. Press Ctrl+C to shut down.
+
+14:42:59 [Information] () Hosting environment: "Development"
+
+14:42:59 [Information] () Content root path: "C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored"
+
+14:43:01 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+
+14:43:01 [Information] () Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js  
+
+14:43:01 [Information] () Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink  
+
+14:43:01 [Information] () Request finished in 5.3707ms 200 application/javascript; charset=utf-8
+
+14:43:01 [Information] () Request finished in 316.5521ms 200 text/html;charset=utf-8
+
+14:43:01 [Information] () Request finished in 133.3652ms 200 text/javascript; charset=UTF-8
+
+14:43:02 [Information] () Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+
+14:43:02 [Information] () Request finished in 163.0269ms 200 application/json;charset=utf-8
+
+14:44:03 [Information] () Request starting HTTP/2 POST https://localhost:5001/api/User/register application/json 116
+
+14:44:03 [Information] () CORS policy execution successful.
+
+14:44:03 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.UserController.Register (MovieApp.Refactored)"'
+
+14:44:03 [Information] () Route matched with "{action = \"Register\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Register(RequestModels.RegisterRequestModel)" on controller "MovieApp.Refactored.Controllers.UserController" ("MovieApp.Refactored").
+
+14:44:04 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+14:44:05 [Information] () Executed DbCommand ("147"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([FavoriteGenre], [FirstName], [LastName], [Password], [Username])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+14:44:05 [Information] () Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+
+14:44:05 [Information] () Executed action "MovieApp.Refactored.Controllers.UserController.Register (MovieApp.Refactored)" in 2740.6371ms
+
+14:44:05 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.UserController.Register (MovieApp.Refactored)"'
+
+14:44:05 [Information] () Request finished in 2948.5982ms 200 application/json; charset=utf-8
+
+14:44:22 [Information] () Request starting HTTP/2 POST https://localhost:5001/api/User/authenticate application/json 36
+
+14:44:22 [Information] () CORS policy execution successful.
+
+14:44:22 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)"'
+
+14:44:22 [Information] () Route matched with "{action = \"Authenticate\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Authenticate(RequestModels.LoginRequestModel)" on controller "MovieApp.Refactored.Controllers.UserController" ("MovieApp.Refactored").
+
+14:44:22 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+14:44:22 [Information] () Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[FavoriteGenre], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]"
+
+14:44:22 [Information] () Executing ObjectResult, writing value of type '"RequestModels.UserModel"'.
+
+14:44:22 [Information] () Executed action "MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)" in 373.309ms
+
+14:44:22 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.UserController.Authenticate (MovieApp.Refactored)"'
+
+14:44:22 [Information] () Request finished in 379.8328ms 200 application/json; charset=utf-8
+
+14:46:12 [Information] () Request starting HTTP/1.1 POST https://localhost:5001/api/movie/addmovie application/json 98
+
+14:46:12 [Information] () "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token."
+
+14:46:12 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:46:12 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:46:12 [Error] () Unknown Error: "Name identifier claim does not exist!"
+
+14:46:12 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+14:46:12 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 205.0021ms
+
+14:46:12 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:46:12 [Information] () Request finished in 238.0538ms 400 text/plain; charset=utf-8
+
+14:47:04 [Information] () Request starting HTTP/1.1 POST https://localhost:5001/api/movie/addmovie application/json 98
+
+14:47:04 [Information] () "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token."
+
+14:47:04 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:47:04 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:47:04 [Error] () Unknown Error: "Name identifier claim does not exist!"
+
+14:47:04 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+14:47:04 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 89.0804ms
+
+14:47:04 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:47:04 [Information] () Request finished in 94.5368ms 400 text/plain; charset=utf-8
+
+14:47:26 [Information] () Request starting HTTP/1.1 GET https://localhost:5001/api/movie/getallmovies  
+
+14:47:26 [Information] () "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token."
+
+14:47:26 [Information] () Authorization failed.
+
+14:47:26 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+14:47:26 [Information] () Request finished in 11.0174ms 401 
+
+14:47:42 [Information] () Request starting HTTP/1.1 POST https://localhost:5001/api/movie/addmovie application/json 98
+
+14:47:42 [Information] () "Bearer" was not authenticated. Failure message: "No SecurityTokenValidator available for token."
+
+14:47:42 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:47:42 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:47:43 [Error] () Unknown Error: "Name identifier claim does not exist!"
+
+14:47:43 [Information] () Executing ObjectResult, writing value of type '"System.String"'.
+
+14:47:43 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 43.6637ms
+
+14:47:43 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:47:43 [Information] () Request finished in 46.4029ms 400 text/plain; charset=utf-8
+
+14:48:02 [Information] () Request starting HTTP/1.1 POST https://localhost:5001/api/movie/addmovie application/json 98
+
+14:48:02 [Information] () Successfully validated the token.
+
+14:48:02 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:48:02 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:48:02 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+14:48:02 [Information] () Executed DbCommand ("13"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Movies] ([Description], [Genre], [Title], [UserId], [Year])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Movies]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+14:48:02 [Information] () New Movie created date: 25.12.2022 13:48:02
+
+14:48:02 [Information] () Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+
+14:48:02 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 98.6543ms
+
+14:48:02 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:48:02 [Information] () Request finished in 170.1804ms 200 application/json; charset=utf-8
+
+14:48:13 [Information] () Request starting HTTP/1.1 GET https://localhost:5001/api/movie/getallmovies  
+
+14:48:13 [Information] () Successfully validated the token.
+
+14:48:13 [Information] () Authorization was successful.
+
+14:48:13 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)"'
+
+14:48:13 [Information] () Route matched with "{action = \"GetAllMovies\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllMovies()" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:48:13 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+14:48:13 [Information] () Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+14:48:13 [Information] () Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[RequestModels.MovieRequestModel, RequestModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+
+14:48:13 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)" in 9.5315ms
+
+14:48:13 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)"'
+
+14:48:13 [Information] () Request finished in 15.163ms 200 application/json; charset=utf-8
+
+14:49:14 [Information] () Request starting HTTP/1.1 POST https://localhost:5001/api/movie/addmovie application/json 100
+
+14:49:14 [Information] () Successfully validated the token.
+
+14:49:14 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:49:14 [Information] () Route matched with "{action = \"AddMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult AddMovie(RequestModels.MovieRequestModel)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:49:14 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+14:49:14 [Information] () Executed DbCommand ("2"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Movies] ([Description], [Genre], [Title], [UserId], [Year])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+SELECT [Id]
+FROM [Movies]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+
+14:49:14 [Information] () New Movie created date: 25.12.2022 13:49:14
+
+14:49:14 [Information] () Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+
+14:49:14 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)" in 9.404ms
+
+14:49:14 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.AddMovie (MovieApp.Refactored)"'
+
+14:49:14 [Information] () Request finished in 14.1891ms 200 application/json; charset=utf-8
+
+14:49:17 [Information] () Request starting HTTP/1.1 GET https://localhost:5001/api/movie/getallmovies  
+
+14:49:17 [Information] () Successfully validated the token.
+
+14:49:17 [Information] () Authorization was successful.
+
+14:49:17 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)"'
+
+14:49:17 [Information] () Route matched with "{action = \"GetAllMovies\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllMovies()" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:49:17 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+14:49:17 [Information] () Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+14:49:17 [Information] () Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[RequestModels.MovieRequestModel, RequestModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+
+14:49:17 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)" in 9.9135ms
+
+14:49:17 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)"'
+
+14:49:17 [Information] () Request finished in 13.1011ms 200 application/json; charset=utf-8
+
+14:50:14 [Information] () Request starting HTTP/1.1 DELETE https://localhost:5001/api/movie/deletemovie/2  
+
+14:50:14 [Information] () Successfully validated the token.
+
+14:50:14 [Information] () Authorization was successful.
+
+14:50:14 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.DeleteMovie (MovieApp.Refactored)"'
+
+14:50:14 [Information] () Route matched with "{action = \"DeleteMovie\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult DeleteMovie(Int32)" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:50:14 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+14:50:14 [Information] () Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+14:50:14 [Information] () Executed DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Movies]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;"
+
+14:50:14 [Information] () Executing ObjectResult, writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+
+14:50:14 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.DeleteMovie (MovieApp.Refactored)" in 33.3727ms
+
+14:50:14 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.DeleteMovie (MovieApp.Refactored)"'
+
+14:50:14 [Information] () Request finished in 38.6709ms 200 application/json; charset=utf-8
+
+14:50:39 [Information] () Request starting HTTP/1.1 GET https://localhost:5001/api/movie/getallmovies  
+
+14:50:39 [Information] () Authorization failed.
+
+14:50:39 [Information] () AuthenticationScheme: "Bearer" was challenged.
+
+14:50:39 [Information] () Request finished in 1.1146ms 401 
+
+14:51:01 [Information] () Request starting HTTP/1.1 GET https://localhost:5001/api/movie/getallmovies  
+
+14:51:01 [Information] () Successfully validated the token.
+
+14:51:01 [Information] () Authorization was successful.
+
+14:51:01 [Information] () Executing endpoint '"MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)"'
+
+14:51:01 [Information] () Route matched with "{action = \"GetAllMovies\", controller = \"Movie\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllMovies()" on controller "MovieApp.Refactored.Controllers.MovieController" ("MovieApp.Refactored").
+
+14:51:01 [Information] () Entity Framework Core "3.1.19" initialized '"MovieDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+
+14:51:01 [Information] () Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [m].[Id], [m].[Description], [m].[Genre], [m].[Title], [m].[UserId], [m].[Year]
+FROM [Movies] AS [m]"
+
+14:51:01 [Information] () Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[RequestModels.MovieRequestModel, RequestModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+
+14:51:01 [Information] () Executed action "MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)" in 4.1145ms
+
+14:51:01 [Information] () Executed endpoint '"MovieApp.Refactored.Controllers.MovieController.GetAllMovies (MovieApp.Refactored)"'
+
+14:51:01 [Information] () Request finished in 6.9036ms 200 application/json; charset=utf-8

@@ -39,7 +39,7 @@ namespace DataAccess.Migrations
                 {
                     table.PrimaryKey("PK_Movies", x => x.Id);
                     table.ForeignKey(
-                        name: "MyFKConstraint",
+                        name: "FK_Movies_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",

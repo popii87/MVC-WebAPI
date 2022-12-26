@@ -1,0 +1,106 @@
+﻿@model FootbalApp.Models.Data.Team;
+
+
+<h2>Team Details</h2>
+<br />
+<div class="container">
+    <div class=" row">
+        <div class="col-3">
+            <p>Name</p>
+            <p>City</p>
+            <p>Stadium</p>
+            <p>Founded Year</p>
+        </div>
+        <div class="col-3">
+
+            <p>@Model.Name</p>
+            <p>@Model.City</p>
+            <p>@Model.Stadium</p>
+            <p>@Model.Year</p>
+
+
+        </div>
+        <div class="col-6">
+            <h6 class="text-black-50 pl-3">History</h6>
+            <textarea cols="50" rows="6">@Model.History</textarea>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a asp-controller="Team" asp-action="Update" asp-route-Name="@Model.Name" class="btn btn-info mx-1">Edit</a>
+            </div>
+            <div class="col-4">
+                <a asp-controller="Team" asp-action="Delete" asp-route-Name="@Model.Name" class="btn btn-danger mx-1">Delete</a>
+            </div>
+
+            <div class="col-4">
+                <a asp-action="Index" class="btn btn-dark mx-1">Back</a>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <br />
+    <br />
+@*
+    <div class="row">
+        <h2>Players</h2>
+        <br />
+        <table class="table table-bordered table-stripped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Date of birth</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @if(Model.Team.TeamPlayers != null)
+                @foreach (var item in Model.Team.TeamPlayers)
+                {
+
+                    <tr>
+                        <td width="25%">@item.FirstName</td>
+                        <td width="25%">@item.LastName</td>
+                        <td width="25%">@item.BirthDate.ToShortDateString()</td>
+                        <td width="25%">$ @item.Value</td>
+                    </tr>
+
+
+                }
+
+
+
+
+            </tbody>
+        </table>
+
+
+    </div>*@
+    <br />
+    @*<form method="post" asp-controller="Team" asp-action="CreatePlayer">
+        <input asp-for="@Model.Name" hidden />
+        <div class="row">
+            <div class="col-4">
+                <p><label asp-for="Player.FirstName"></label></p>
+                <p><label asp-for="Player.LastName"></label></p>
+                <p><label asp-for="Player.BirthDate"></label></p>
+                <p><label asp-for="Player.Value"></label></p>
+            </div>
+            <div class="col-4">
+                <p><input asp-for="Player.FirstName" /></p>
+                <p><input asp-for="Player.LastName" /></p>
+                <p><input type="date" asp-for="Player.BirthDate" /></p>
+                <p><input asp-for="Player.Value" /></p>
+            </div>
+
+
+
+        </div>
+        <input type="submit" asp-action="CreatePlayer" asp-route-Name="@Model.Team.Name" class="btn btn-info" value="Creat Player" />
+    </form>*@
+
+</div>

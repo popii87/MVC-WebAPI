@@ -8,3 +8,13 @@ C:\Users\R\Desktop\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\Doma
 C:\Users\R\Desktop\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.dll
 C:\Users\R\Desktop\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.pdb
 C:\Users\R\Desktop\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.deps.json
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\bin\Debug\netcoreapp3.1\DomainModels.pdb
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.AssemblyInfo.cs
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.dll
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\DomainModels\obj\Debug\netcoreapp3.1\DomainModels.pdb

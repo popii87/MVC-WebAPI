@@ -8,3 +8,13 @@ C:\Users\R\Desktop\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.Ass
 C:\Users\R\Desktop\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
 C:\Users\R\Desktop\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.dll
 C:\Users\R\Desktop\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.pdb
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\Common\obj\Debug\netcoreapp3.1\Common.pdb

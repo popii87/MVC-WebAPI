@@ -79,7 +79,6 @@ namespace DataAccess.Migrations
                     b.HasOne("DomainModels.Data.User", "User")
                         .WithMany("Movies")
                         .HasForeignKey("UserId")
-                        .HasConstraintName("MyFKConstraint")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
