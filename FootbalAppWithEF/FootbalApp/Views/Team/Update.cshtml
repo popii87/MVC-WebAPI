@@ -1,22 +1,20 @@
 ﻿@model FootbalApp.Models.Data.Team;
 
 <form method="post" asp-action="UpdateTeam">
-    <input asp-for="@Model.Name" hidden />
     <div class="form-group row">
         <h2 class="text-black-50 pl-3">Update Team</h2>
-
-
     </div>
 
-    <div class=" row">
+    <div class="row">
         <div class="col-3">
+            <input type="hidden" asp-for="@Model.Id" />
             <p><label asp-for="Name"></label></p>
             <p><label asp-for="City"></label></p>
             <p><label asp-for="Stadium"></label></p>
             <p><label asp-for="Year"></label></p>
         </div>
         <div class="col-3">
-
+            <input type="hidden" asp-for="@Model.Id" />
             <p><input asp-for="@Model.Name" /></p>
             <p><input asp-for="@Model.City" /></p>
             <p><input asp-for="@Model.Stadium" /></p>

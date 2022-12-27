@@ -22,14 +22,14 @@
         </div>
         <div class="col-6">
             <h6 class="text-black-50 pl-3">History</h6>
-            <textarea cols="50" rows="6">@Model.History</textarea>
+            <textarea cols="50" rows="6" disabled>@Model.History</textarea>
         </div>
         <div class="row">
             <div class="col-4">
-                <a asp-controller="Team" asp-action="Update" asp-route-Name="@Model.Name" class="btn btn-info mx-1">Edit</a>
+                <a asp-controller="Team" asp-action="Update" asp-route-id="@Model.Id" class="btn btn-info mx-1">Edit</a>
             </div>
             <div class="col-4">
-                <a asp-controller="Team" asp-action="Delete" asp-route-Name="@Model.Name" class="btn btn-danger mx-1">Delete</a>
+                <a asp-controller="Team" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger mx-1">Delete</a>
             </div>
 
             <div class="col-4">

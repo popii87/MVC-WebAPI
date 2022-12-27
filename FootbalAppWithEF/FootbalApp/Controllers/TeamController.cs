@@ -23,7 +23,7 @@ namespace FootbalApp.Controllers
              return View(teams);
         }
 
-        public IActionResult TeamDetails(string name)
+        public IActionResult TeamDetails(int id)
         {
             //ViewModel myModel = new ViewModel();
             //myModel.Teams = _dbContext.Teams.ToList();
@@ -31,7 +31,7 @@ namespace FootbalApp.Controllers
             //myModel.Team = myModel.Teams.FirstOrDefault(t => t.Name == team.Name);
 
             //var teamD = _dbContext.Teams.FirstOrDefault(t => t.Name == team.Name);
-            var team = _dbContext.Teams.FirstOrDefault(t=>t.Name.Equals(name));
+            var team = _dbContext.Teams.FirstOrDefault(t=>t.Id.Equals(id));
             return View(team);
         }
 
@@ -49,29 +49,28 @@ namespace FootbalApp.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Delete(string name)
+        public IActionResult Delete(int id)
         {
-            var team = _dbContext.Teams.FirstOrDefault(t => t.Name.Equals(name));
+            var team = _dbContext.Teams.FirstOrDefault(t => t.Id.Equals(id));
             return View(team);
         }
         [HttpPost]
-        public IActionResult DeleteTeam(string name)
+        public IActionResult DeleteTeam(int id)
         {
-            var team = _dbContext.Teams.FirstOrDefault(t => t.Name.Equals(name));
+            var team = _dbContext.Teams.FirstOrDefault(t => t.Id.Equals(id));
             _dbContext.Teams.Remove(team);
             _dbContext.SaveChanges();
             return RedirectToAction("Index");
         }
 
-        public ActionResult Update(Team team)
+        public ActionResult Update(int id)
         {
-            var team1 = _dbContext.Teams.FirstOrDefault(t => t.Name.Equals(team.Name));
-            return View(team1);
+            var team = _dbContext.Teams.FirstOrDefault(t => t.Id.Equals(id));
+            return View(team);
         }
         [HttpPost]
         public ActionResult UpdateTeam(Team team)
         {
-            //var team1 = _dbContext.Teams.FirstOrDefault(t=>t.Name.Equals(team.Name));  
             _dbContext.Teams.Update(team);
             _dbContext.SaveChanges();
             return RedirectToAction("Index");
