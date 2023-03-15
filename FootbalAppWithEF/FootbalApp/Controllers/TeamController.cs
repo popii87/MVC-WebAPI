@@ -25,14 +25,13 @@ namespace FootbalApp.Controllers
 
         public IActionResult TeamDetails(int id)
         {
-            //ViewModel myModel = new ViewModel();
-            //myModel.Teams = _dbContext.Teams.ToList();
-            //myModel.Players = _dbContext.Players.ToList();
-            //myModel.Team = myModel.Teams.FirstOrDefault(t => t.Name == team.Name);
+            ViewModel myModel = new ViewModel();
+            myModel.Teams = _dbContext.Teams.ToList();
+            myModel.Players = _dbContext.Players.ToList();
+            myModel.Team = myModel.Teams.FirstOrDefault(t => t.Id.Equals(id)); 
 
-            //var teamD = _dbContext.Teams.FirstOrDefault(t => t.Name == team.Name);
-            var team = _dbContext.Teams.FirstOrDefault(t=>t.Id.Equals(id));
-            return View(team);
+            
+            return View(myModel);
         }
 
         public IActionResult Create()
@@ -43,7 +42,6 @@ namespace FootbalApp.Controllers
         public IActionResult Create(Team team)
         {
             
-          //  team.TeamPlayers = new List<Player>();
             _dbContext.Teams.Add(team);
             _dbContext.SaveChanges();
             return RedirectToAction("Index");
@@ -55,9 +53,8 @@ namespace FootbalApp.Controllers
             return View(team);
         }
         [HttpPost]
-        public IActionResult DeleteTeam(int id)
-        {
-            var team = _dbContext.Teams.FirstOrDefault(t => t.Id.Equals(id));
+        public IActionResult DeleteTeam(Team team)
+        {           
             _dbContext.Teams.Remove(team);
             _dbContext.SaveChanges();
             return RedirectToAction("Index");
@@ -71,26 +68,22 @@ namespace FootbalApp.Controllers
         [HttpPost]
         public ActionResult UpdateTeam(Team team)
         {
+            
             _dbContext.Teams.Update(team);
             _dbContext.SaveChanges();
             return RedirectToAction("Index");
            
-            /*
-             * var team1 = _dbContext.Teams.FirstOrDefault(t => t.Name == team.Name);
-            var indexOf = FootbalApp._dbContext.Teams.IndexOf(team1);
-            team.TeamPlayers = team1.TeamPlayers;
-            FootbalApp._dbContext.Teams[indexOf] = team;
-            return RedirectToAction("Index");
-            */
+        
 
         }
       
         [HttpPost]
-        public IActionResult CreatePlayer(Player player, string name)
+        public IActionResult CreatePlayer(Player player, Team team )
         {
-            var team = _dbContext.Teams.FirstOrDefault(t => t.Name == name);
-            team.TeamPlayers.Add(player);
-            return RedirectToAction("TeamDetails", new {name =team.Name });
+            var team1 = _dbContext.Teams.FirstOrDefault(t => t.Id.Equals(team.Id));
+            team1.TeamPlayers.Add(player);
+            _dbContext.SaveChanges();
+            return RedirectToAction("TeamDetails", new {id = team.Id });
         }
     }
 }

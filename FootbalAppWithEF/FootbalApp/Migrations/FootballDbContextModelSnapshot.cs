@@ -39,15 +39,15 @@ namespace FootbalApp.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Value")
+                    b.Property<int>("TeamId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("teamId")
+                    b.Property<int>("Value")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("teamId");
+                    b.HasIndex("TeamId");
 
                     b.ToTable("Players");
                 });
@@ -82,11 +82,13 @@ namespace FootbalApp.Migrations
 
             modelBuilder.Entity("FootbalApp.Models.Data.Player", b =>
                 {
-                    b.HasOne("FootbalApp.Models.Data.Team", "team")
+                    b.HasOne("FootbalApp.Models.Data.Team", "Team")
                         .WithMany("TeamPlayers")
-                        .HasForeignKey("teamId");
+                        .HasForeignKey("TeamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("team");
+                    b.Navigation("Team");
                 });
 
             modelBuilder.Entity("FootbalApp.Models.Data.Team", b =>

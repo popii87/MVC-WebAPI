@@ -192,3 +192,8 @@ C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Deb
 C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Debug\netcoreapp3.1\MovieApp.Refactored.dll
 C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Debug\netcoreapp3.1\MovieApp.Refactored.pdb
 C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Debug\netcoreapp3.1\MovieApp.Refactored.genruntimeconfig.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Debug\netcoreapp3.1\staticwebassets\MovieApp.Refactored.StaticWebAssets.Pack.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.MovieApp.Refactored.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.MovieApp.Refactored.props
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.MovieApp.Refactored.props
+C:\Users\Asus\Desktop\MVC-WebAPI\MovieApp.Refactored\MovieApp.Refactored\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.MovieApp.Refactored.props

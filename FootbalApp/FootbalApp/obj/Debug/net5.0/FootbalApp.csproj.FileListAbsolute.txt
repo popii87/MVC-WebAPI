@@ -88,3 +88,8 @@ C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalA
 C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.genruntimeconfig.cache
 C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\ref\FootbalApp.dll
 C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\FootbalApp.csproj.CopyComplete
+C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\staticwebassets\FootbalApp.StaticWebAssets.Pack.cache
+C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\staticwebassets\msbuild.FootbalApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\staticwebassets\msbuild.build.FootbalApp.props
+C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.FootbalApp.props
+C:\Users\Asus\Desktop\MVC-WebAPI\FootbalApp\FootbalApp\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.FootbalApp.props

@@ -38,22 +38,23 @@ namespace FootbalApp.Migrations
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     BirthDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Value = table.Column<int>(type: "int", nullable: false),
-                    teamId = table.Column<int>(type: "int", nullable: true)
+                    TeamId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Players", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Players_Teams_teamId",
-                        column: x => x.teamId,
+                        name: "FK_Players_Teams_TeamId",
+                        column: x => x.TeamId,
                         principalTable: "Teams",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Players_teamId",
+                name: "IX_Players_TeamId",
                 table: "Players",
-                column: "teamId");
+                column: "TeamId");
         }
 
         /// <inheritdoc />

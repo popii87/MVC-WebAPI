@@ -12,5 +12,16 @@ namespace FootbalApp
         }
         public DbSet<Player> Players { get; set; }
         public DbSet<Team> Teams { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Player>()
+                        .HasOne(x => x.Team)
+                        .WithMany(x => x.TeamPlayers)
+                        .HasForeignKey(x => x.TeamId);
+
+
+
+        }
     }
 }
